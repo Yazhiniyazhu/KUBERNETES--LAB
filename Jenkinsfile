@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/jenkins-kubernetes-set11.git'
+                    url: 'https://github.com/Yazhiniyazhu/KUBERNETES--LAB.git'
             }
         }
 
